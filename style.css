@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+html {
+   background-color: black;
+   margin: 0;
+   padding: 0;
+}
+body {
+   background-image: url('mainbackground.jpg');
+   background-repeat: no-repeat;
+   background-size: 100%;
+   display: flex;
+   margin: 0;
+   padding: 0;
+   height: 100vh;
+   font-family: 'Times New Roman', Times, serif, sans-serif;
+   flex-direction: column;
+}
+
+main {
+   background-color: #fff;
+   padding: 20px;
+   background-image: none;
+   height: 100%;
+}
+
+body, h1, h3 {
+   margin: 0;
+   padding: 0;
+}
+
+.logo {
+   max-width: 500px;
+}
+
+.fronttext {
+   text-align: center;
+   margin: 5%;
+   font-family: 'Times New Roman', Times, serif, sans-serif;
+   font-size: 40px;
+   flex: 1;
+
+}
+
+h1,h3 {
+   text-align: center;
+   color: white;
+}
+
+footer{
+   color:white;
+   font-size: 20px;
+   text-align: center;
+}

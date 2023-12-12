@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+form {
+    color: white;
+    text-align: center;
+    border: 10px solid white;
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+main{
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 0;
+    margin: auto;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+    padding: 2px;
+    font-weight: bold;
+}
+
+fieldset {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+b {
+    color: red;
+}
+
+footer{ 
+    color:white;
+    text-align: center;
+}

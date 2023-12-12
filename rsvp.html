@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--
+   Korean BBQ Resturant
+   Project Week 6
+   CIS301 - Deodat
+   
+   RSVP page for KBBQ Resturant
+   Author: Anthony Huang
+   Date:   10/10/2023
+   
+   Filename: rsvp.html
+   -->
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="bbq, korean, dinner, meat"/>
+    <title>Reserve Now</title>
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="stylersvp.css" />
+	
+</head>
+
+    <body>
+    <header>
+		<a href="index.html"><img class="logo" src="logo.png" alt="resturant logo" /></a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="rsvp.html">RSVP</a>
+            <a href="aboutus.html">About Us</a>
+        </nav>
+    </header>
+
+    <main>
+
+    <h1>Reservations</h1>
+    <h2> Secure your table whether its for the unique experience, business dinner, or<br />a social gathering. You secure the table, we serve the KBBQ</h2>
+    <hr />
+    <form method="post" action="get">
+    <p>Enter your details</p>
+    <p>Your name:
+    <input name="name" type="text" size="25" maxlength="25" />
+    </p>
+    <p>Your number:
+    <input name="number" type="text" size="25" maxlength="25" />
+    </p>
+
+
+    <p>Total Guests
+    <select name="people">
+       <option value="" disabled selected>Select Party Size</option>
+       <option value="1">1</option>
+       <option value="2">2</option>
+       <option value="3">3</option>
+       <option value="4">4</option>
+       <option value="5">5</option>
+       <option value="6">6</option>
+       <option value="7">7+</option>
+    </select>
+
+
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="time">Time:</label>
+    <input type="time" name="time" required>
+</p>
+
+    
+    <p> Any precautions or allergies we should be aware of before you arrive?
+    <br /><textarea name="other" rows="2" cols="100"></textarea></p>
+
+        
+    <div class="buttonbox">
+        <p><input type="submit" value="Submit Reservation"/> </p>
+    </div>
+    
+    <div id="bottom">
+    <p>Hope to see you soon!
+    <br /><b>&copy; Korean BBQ Resturant</b></p>
+    </div>
+    
+    </form>
+    </main>
+
+</body>
+</html>
+
